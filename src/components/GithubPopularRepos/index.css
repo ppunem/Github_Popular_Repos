@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-heading {
+  font-family: 'lobster';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #0f172a;
+}
+.options-container {
+  display: flex;
+  justify-content: center;
+}
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-image {
+  height: 100px;
+}
+.failure-text {
+  font-family: 'lobster';
+  color: #0f172a;
+  font-weight: bold;
+}
