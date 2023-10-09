@@ -39,7 +39,7 @@ class GithubPopularRepos extends Component {
 
   fetchData = async () => {
     const {activeId} = this.state
-    const url = `https://apis.ccbp.in/popular-repos?language${activeId}`
+    const url = `https://apis.ccbp.in/popular-repos?language=${activeId}`
     const response = await fetch(url)
     const data = await response.json()
     if (response.ok === true) {
